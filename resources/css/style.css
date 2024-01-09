@@ -1,0 +1,21 @@
+.sidebar {
+    background-color: #333; /* สีพื้นหลัง */
+    color: #fff; /* สีตัวหนังสือ */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+
+/* เพิ่มสไตล์สำหรับรายการเมนู */
+.list-group-item {
+    background-color: #333; /* สีพื้นหลังรายการเมนู */
+    border: none; /* ไม่มีเส้นขอบ */
+}
+
+/* เพิ่มสไตล์เมื่อเม้าส์ hover ที่รายการเมนู */
+.list-group-item:hover {
+    background-color: #555; /* สีพื้นหลังเมื่อ hover */
+}
+
+/* เปลี่ยนสีข้อความเมื่อ hover ที่รายการเมนู */
+.list-group-item a:hover {
+    color: #fff;
+}
